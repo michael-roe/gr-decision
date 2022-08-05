@@ -1,0 +1,19 @@
+id: decision_c4fm_soft_decision_fc
+label: C4FM Soft Decision
+category: '[Decision]'
+templates:
+  imports: import decision
+  make: decision.c4fm_soft_decision_fc(${gain})
+parameters:
+- id: gain
+  label: Gain
+  dtype: real
+inputs:
+- label: in
+  domain: stream
+  dtype: float
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+file_format: 1

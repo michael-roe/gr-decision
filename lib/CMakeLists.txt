@@ -12,6 +12,7 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND decision_sources
+    c4fm_soft_decision_fc_impl.cc
 )
 
 set(decision_sources "${decision_sources}" PARENT_SCOPE)

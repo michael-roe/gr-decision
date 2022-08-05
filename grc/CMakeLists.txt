@@ -7,5 +7,5 @@
 #
 
 install(FILES
-    DESTINATION share/gnuradio/grc/blocks
+    decision_c4fm_soft_decision_fc.block.yml DESTINATION share/gnuradio/grc/blocks
 )

@@ -29,7 +29,7 @@ include(GrPybind)
 ########################################################################
 
 list(APPEND decision_python_files
-    python_bindings.cc)
+    c4fm_soft_decision_fc_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(decision
    ../../..
