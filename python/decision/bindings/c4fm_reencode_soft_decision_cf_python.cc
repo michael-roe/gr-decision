@@ -13,8 +13,8 @@
 /* If manual edits are made, the following tags should be modified accordingly.    */
 /* BINDTOOL_GEN_AUTOMATIC(0)                                                       */
 /* BINDTOOL_USE_PYGCCXML(0)                                                        */
-/* BINDTOOL_HEADER_FILE(c4fm_soft_decision_fc.h)                                        */
-/* BINDTOOL_HEADER_FILE_HASH(7f18cde524f5992e2f2231035dfc68cc)                     */
+/* BINDTOOL_HEADER_FILE(c4fm_reencode_soft_decision_cf.h)                                        */
+/* BINDTOOL_HEADER_FILE_HASH(bb36249d60a249a2d11a1f1369b6e31a)                     */
 /***********************************************************************************/
 
 #include <pybind11/complex.h>
@@ -23,22 +23,21 @@
 
 namespace py = pybind11;
 
-#include <gnuradio/decision/c4fm_soft_decision_fc.h>
+#include <gnuradio/decision/c4fm_reencode_soft_decision_cf.h>
 // pydoc.h is automatically generated in the build directory
-#include <c4fm_soft_decision_fc_pydoc.h>
+#include <c4fm_reencode_soft_decision_cf_pydoc.h>
 
-void bind_c4fm_soft_decision_fc(py::module& m)
+void bind_c4fm_reencode_soft_decision_cf(py::module& m)
 {
 
-    using c4fm_soft_decision_fc    = ::gr::decision::c4fm_soft_decision_fc;
+    using c4fm_reencode_soft_decision_cf    = gr::decision::c4fm_reencode_soft_decision_cf;
 
 
-    py::class_<c4fm_soft_decision_fc, gr::sync_block, gr::block, gr::basic_block,
-        std::shared_ptr<c4fm_soft_decision_fc>>(m, "c4fm_soft_decision_fc", D(c4fm_soft_decision_fc))
+    py::class_<c4fm_reencode_soft_decision_cf, gr::sync_block, gr::block, gr::basic_block,
+        std::shared_ptr<c4fm_reencode_soft_decision_cf>>(m, "c4fm_reencode_soft_decision_cf", D(c4fm_reencode_soft_decision_cf))
 
-        .def(py::init(&c4fm_soft_decision_fc::make),
-           py::arg("gain"),
-           D(c4fm_soft_decision_fc,make)
+        .def(py::init(&c4fm_reencode_soft_decision_cf::make),
+           D(c4fm_reencode_soft_decision_cf,make)
         )
         
 

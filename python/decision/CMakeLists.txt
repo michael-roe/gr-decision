@@ -40,3 +40,4 @@ add_custom_target(
           ${CMAKE_BINARY_DIR}/test_modules/gnuradio/decision/
 )
 GR_ADD_TEST(qa_c4fm_soft_decision_fc ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_c4fm_soft_decision_fc.py)
+GR_ADD_TEST(qa_c4fm_reencode_soft_decision_cf ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_c4fm_reencode_soft_decision_cf.py)

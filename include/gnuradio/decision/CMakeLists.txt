@@ -11,5 +11,6 @@
 ########################################################################
 install(FILES
     api.h
-    c4fm_soft_decision_fc.h DESTINATION include/gnuradio/decision
+    c4fm_soft_decision_fc.h
+    c4fm_reencode_soft_decision_cf.h DESTINATION include/gnuradio/decision
 )
